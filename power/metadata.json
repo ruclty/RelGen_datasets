@@ -1,0 +1,14 @@
+{
+  "columns": [
+    {"name": "Date", "type": "date", "value_size": 1433, "min": "2006-12-16", "max": "2010-11-26", "not_null": false, "null_ratio": 0.1},
+    {"name": "Time", "type": "time", "value_size": 1440, "min": "00:00:00", "max": "23:59:00", "not_null": false, "null_ratio": 0.1},
+    {"name": "Global_active_power", "type": "float", "value_size": 4556, "min": 0.076, "max": 11.122, "not_null": false, "null_ratio": 0.1},
+    {"name": "Global_reactive_power", "type": "float", "value_size": 577, "min": 0.0, "max": 1.39, "not_null": false, "null_ratio": 0.1},
+    {"name": "Voltage", "type": "float", "value_size": 2837, "min": 223.2, "max": 254.15, "not_null": false, "null_ratio": 0.1},
+    {"name": "Global_intensity", "type": "float", "value_size": 221, "min": 0.2, "max": 48.4, "not_null": false, "null_ratio": 0.1},
+    {"name": "Sub_metering_1", "type": "int", "value_size": 88, "min": 0, "max": 88, "not_null": false, "null_ratio": 0.1},
+    {"name": "Sub_metering_2", "type": "int", "value_size": 81, "min": 0, "max": 80, "not_null": false, "null_ratio": 0.1},
+    {"name": "Sub_metering_3", "type": "int", "value_size": 32, "min": 0, "max": 31, "not_null": false, "null_ratio": 0.1}
+  ],
+  "cardinality": 2049280
+}

@@ -1,0 +1,16 @@
+{
+  "columns": [
+    {"name": "Record_Type", "type": "char", "value_size": 4, "not_null": false, "null_ratio": 0.1},
+    {"name": "Registration_Class", "type": "char", "value_size": 75},
+    {"name": "State", "type": "char", "value_size": 89},
+    {"name": "County", "type": "char", "value_size": 63},
+    {"name": "Body_Type", "type": "char", "value_size": 59},
+    {"name": "Fuel_Type", "type": "char", "value_size": 9, "not_null": false, "null_ratio": 0.01},
+    {"name": "Reg_Valid_Date", "type": "char", "value_size": 2102},
+    {"name": "Color", "type": "char", "value_size": 225},
+    {"name": "Scofflaw_Indicator", "type": "char", "value_size": 2},
+    {"name": "Suspension_Indicator", "type": "char", "value_size": 2, "not_null": false},
+    {"name": "Revocation_Indicator", "type": "char", "value_size": 2}
+  ],
+  "cardinality": 11591877
+}

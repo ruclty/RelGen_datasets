@@ -1,0 +1,20 @@
+{
+  "columns": [
+    {"name": "age", "type": "int", "value_size": 74, "max": 80, "min": 16, "not_null": false, "null_ratio": 0.1},
+    {"name": "workclass", "type": "char", "value_size": 7, "not_null": false, "null_ratio": 0.01},
+    {"name": "fnlwgt", "type": "int", "value_size": 26741, "max": 252313, "min": 0},
+    {"name": "education", "type": "char", "value_size": 16},
+    {"name": "education-num", "type": "int", "value_size": 16, "max": 16, "min": 1},
+    {"name": "marital-status", "type": "char", "value_size": 7},
+    {"name": "occupation", "type": "char", "value_size": 14},
+    {"name": "relationship", "type": "char", "value_size": 6},
+    {"name": "race", "type": "char", "value_size": 5},
+    {"name": "sex", "type": "char", "value_size": 2},
+    {"name": "capital-gain", "type": "int", "value_size": 121, "max": 99999, "min": 0},
+    {"name": "capital-loss", "type": "int", "value_size": 97, "max": 880, "min": 0},
+    {"name": "hours-per-week", "type": "int", "value_size": 96, "max": 99, "min": 1},
+    {"name": "native-country", "type": "char", "value_size": 41, "not_null": false},
+    {"name": "income", "type": "char", "value_size": 2, "not_null": true}
+  ],
+  "cardinality": 45222
+}

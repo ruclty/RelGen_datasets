@@ -1,0 +1,14 @@
+{
+    "columns": [
+        {"name": "State", "type": "char", "value_size": 1,"not_null":true},
+        {"name": "Scofflaw Indicator", "type": "char", "value_size": 1,"not_null":true},
+        {"name": "Body Type", "type": "char", "value_size": 2,"not_null":true},
+        {"name": "County", "type": "char", "value_size": 28,"not_null":true}
+    ], 
+    "operations": [
+        {"name": "<="},
+        {"name": "<="},
+        {"name": "<="},
+        {"name": "="}
+    ]
+}
